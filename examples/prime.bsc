@@ -1,0 +1,13 @@
+20 PRINT "Fino a quale numero vuoi trovare dei numeri primi?"
+30 INPUT L
+40 IF L <= 2 THEN PRINT "Il numero deve essere maggiore di due"
+50 IF L > 2 GOTO 100
+60 END
+100 PRINT 2
+110 FOR N = 3 TO L
+120 FOR D = 2 TO (N-1)
+130 IF (N%D) = 0 GOTO 160
+140 NEXT D
+150 PRINT (N)
+160 NEXT N
+180 END

@@ -1,0 +1,10 @@
+10 PRINT "Inserisci un numero"
+20 INPUT A
+30 PRINT "Inserisci un altro numero"
+40 INPUT B
+50 PRINT A ; " + " ; B ; " = " ; (A+B)
+60 PRINT A ; " - " ; B ; " = " ; (A-B)
+70 PRINT A ; " * " ; B ; " = " ; (A*B)
+80 PRINT A ; " / " ; B ; " = " ; (A/B)
+90 PRINT A ; " ^ " ; B ; " = " ; (POW(A+B))
+1000 END
